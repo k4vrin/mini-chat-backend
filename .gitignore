@@ -1,0 +1,61 @@
+############################
+# Gradle
+############################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+############################
+# Kotlin
+############################
+.kotlin/
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# Spring Boot
+############################
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+
+############################
+# Environment variables
+############################
+.env
+.env.*
+
+############################
+# Databases
+############################
+*.db
+*.h2.db
+*.mv.db
+data/
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Misc
+############################
+tmp/
+temp/
