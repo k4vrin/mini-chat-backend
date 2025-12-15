@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MiniChatBackendApplication
+class ChatApplication
 
 fun main(args: Array<String>) {
-	runApplication<MiniChatBackendApplication>(*args)
+	runApplication<ChatApplication>(*args)
 }
